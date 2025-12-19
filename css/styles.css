@@ -151,7 +151,7 @@ address {
 .features h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
@@ -159,7 +159,7 @@ address {
 .features p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -188,7 +188,11 @@ address {
 }
 .team {
     display: flex;
-    gap: 32px;
+    gap: 24px;
+}
+.team-info {
+    padding: 32px 16px;
+    text-align: center;
 }
 .team-person {
     background-color: #FFFFFF;
@@ -202,8 +206,7 @@ address {
     height: auto;
 }
 .team-person h3 {
-    margin: 32px 0 8px;
-    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -211,8 +214,7 @@ address {
     color: #2E2F42;
 }
 .team-person p {
-    margin-bottom: 32px;
-    text-align: center;
+    margin: 0;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -226,7 +228,7 @@ address {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -241,19 +243,25 @@ address {
 }
 .our img {
     display: block;
+    width: 100%;
+}
+.our .portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 .our h3 {
-    margin: 16px 0 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .our p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
